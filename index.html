@@ -15,7 +15,7 @@
         <nav>
             <a href "#about">about</a>
             <a href "#skills">skills</a>
-            <a href "contact">contact</a>
+            <a href "#contact">contact</a>
         </nav>
         <section id="about">
             <h2>
@@ -23,7 +23,10 @@
             </h2>
             <p>
                 my name is saksham babele .
-                I am doing BTech in CSE from LNM institute of information technology JAIPUR .   
+                I am doing BTech in CSE from LNM institute of information technology JAIPUR . 
+                <br>
+                <img src="https://t3.ftcdn.net/jpg/09/28/53/10/360_F_928531048_45ay4GSNYJuTLIHKtuR255O9ndjsHg5x.jpg" alt="image of student">
+             
             </p>
         </section>
         <section id="skills">
@@ -63,11 +66,67 @@
             <h2>
                 contact
             </h2>
-            my github profile link is here <a href ="https://github.com/saksham-babele/html-practice-saksham-babele">github</a>
-        </section>
-    </header>
+            my github profile link is here <a href ="https://github.com/saksham-babele/html-practice-saksham-babele" target="_blank">github</a>
+            <form>
+            <input type="text" placeholder="name" minlength="5"required>
+            <input type="email" placeholder="email"required>
+            <br>
+            select reason for contact
+            <br>
+            <select name="reason">
+                <option value="for meeting purpose">for meeting purpose</option>
+                <option value="for taking referal">for taking referal</option>
+                <option value="for taking guidance">for taking guidance</option>
+            </select>
+            <br>
+            <label for="101">
+            <input type="radio" value="first year" name="year" id="101">first year
+            </label>
+            <label for="102">
+            <input type="radio" value="second year" name="year" id="102">second year
+            </label>
+            <label for="103">
+            <input type="radio" value="third year" name="year" id="103">third year
+            </label>
 
-    
-    
+            <br>
+            enter your message in the box given below
+            <br>
+            <textarea name="message"  placeholder="please enter your message">
+
+            </textarea>
+            <button type="submit">submit</button>
+            </form>
+
+        </section>
+        <section id="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>day</th>
+                        <th>subject</th>
+                        <th>time</th>
+                    </tr>
+                    <tr>
+                        <td>monday</td>
+                        <td>english</td>
+                        <td>9:00</td>
+                    </tr>
+                    <tr>
+                        <td>tuesday</td>
+                        <td>maths</td>
+                        <td>10:00</td>
+                    </tr>
+                    <tr>
+                        <td>wednesday</td>
+                        <td>science</td>
+                        <td>11:00</td>
+                    </tr>
+                </thead>
+            </table>
+        </section>
+
+
+    </header> 
 </body>
 </html>
